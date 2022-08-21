@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.screen {
+    display: flex;
+    height: 100vh;
+}
+
+.leftside{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF3F8;
+}
+.leftside img {
+    max-width: 500px;
+    height: auto;
+}
+
+.rightside {
+    width: 500px;
+    background-color: rgba(221, 217, 217, 0.856);
+    padding: 50px;
+}
+
+.rightside label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.rightside input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 13px;
+    outline: 0;
+}
