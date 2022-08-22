@@ -15,14 +15,14 @@
         <div class="rightside">
             <h1>Create an account</h1>
 
-            <form method="POST" class="b7validator">
+            <form method="POST" action="cadastro.php" class="b7validator">
                 <label>
                     Name:<br/>
-                    <input type="text" name="name"/>
+                    <input type="text" name="name" data-rules="required†min=3" />
                 </label>
                 <label>
                     E-mail Andress:<br/>
-                    <input type="text" name="e-mail"/>
+                    <input type="text" name="e-mail" data-rules="required†email"/>
                 </label>
                 <label>
                     Passoword:<br/>
